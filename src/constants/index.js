@@ -31,11 +31,6 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-      {
-        id: 4,
         name: "Redux",
         path: "/assets/logos/Redux.svg",
       },
@@ -61,11 +56,7 @@ export const myProjects = [
         name: "Auth0",
         path: "/assets/logos/auth0.svg",
       },
-      {
-        id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
+      
       {
         id: 3,
         name: "MongoDB",
@@ -76,11 +67,7 @@ export const myProjects = [
         name: "Redis",
         path: "/assets/logos/Redis.svg",
       },
-      {
-        id: 5,
-        name: "NodeJS",
-        path: "/assets/logos/Node.js.svg",
-      },
+      
     ],
   },
   {
@@ -108,20 +95,11 @@ export const myProjects = [
         path: "/assets/logos/Node.js.svg",
       },
       {
-        id: 3,
-        name: "MongoDB",
-        path: "/assets/logos/MongoDB.svg",
-      },
-      {
         id: 4,
         name: "Firebase",
         path: "/assets/logos/FB.png",
       },
-      {
-        id: 5,
-        name: "Docker",
-        path: "/assets/logos/Docker.svg",
-      },{
+    {
         id: 6,
         name: "Gemini API",
         path: "/assets/logos/tailwindcss.svg",
@@ -148,11 +126,7 @@ export const myProjects = [
         name: "React",
         path: "/assets/logos/react.svg",
       },
-      {
-        id: 2,
-        name: "NodeJS",
-        path: "/assets/logos/Node.js.svg",
-      },
+      
       {
         id: 3,
         name: "Socket.io",
@@ -163,12 +137,7 @@ export const myProjects = [
         name: "Material UI",
         path: "/assets/logos/mui.svg",
       },
-      {
-        id: 5,
-        name: "Zustand",
-        path: "/assets/logos/Redis.svg",
-       
-      },
+     
     ],
   },
   {
@@ -196,21 +165,13 @@ export const myProjects = [
         name: "NodeJS",
         path: "/assets/logos/Node.js.svg",
       },
-      {
-        id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
+      
       {
         id: 4,
         name: "PostgreSQL",
         path: "/assets/logos/pSQL.svg",
       },
-      {
-        id: 5,
-        name: "Docker",
-        path: "/assets/logos/Docker.svg",
-      },
+      
     ],
   },
   {
@@ -228,11 +189,7 @@ export const myProjects = [
     logo: "",
     image: "/assets/projects/elearning.jpg",
     tags: [
-      {
-        id: 1,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
+     
       {
         id: 2,
         name: "Redux",
@@ -248,21 +205,13 @@ export const myProjects = [
         name: "NodeJS",
         path: "/assets/logos/Node.js.svg",
       },
-      {
-        id: 5,
-        name: "Docker",
-        path: "/assets/logos/Docker.svg",
-      },
+      
        {
         id: 6,
         name: "Redis",
         path: "/assets/logos/Redis.svg",
       },
-       {
-        id: 7,
-        name: "AWS",
-        path: "/assets/logos/AWS.svg",
-      },
+      
     ],
   },
 ];
