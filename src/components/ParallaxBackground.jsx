@@ -15,7 +15,7 @@ const ParallaxBackground = () => {
         <div
           className="absolute inset-0 w-full h-screen -z-50"
           style={{
-            backgroundImage: "url(/assets/sky.jpg)",
+            backgroundImage: "url(https://ik.imagekit.io/me99izv07/assets/sky.jpg?updatedAt=1755343300791)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
           }}
@@ -24,7 +24,7 @@ const ParallaxBackground = () => {
         <motion.div
           className="absolute inset-0 -z-40"
           style={{
-            backgroundImage: "url(/assets/mountain-3.png)",
+            backgroundImage: "url(https://ik.imagekit.io/me99izv07/assets/mountain-3.png?updatedAt=1755343295811)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
             y: mountain3Y,
@@ -34,7 +34,7 @@ const ParallaxBackground = () => {
         <motion.div
           className="absolute inset-0 -z-30"
           style={{
-            backgroundImage: "url(/assets/planets.png)",
+            backgroundImage: "url(https://ik.imagekit.io/me99izv07/assets/planets.png?updatedAt=1755343295991)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
             x: planetsX,
@@ -44,7 +44,7 @@ const ParallaxBackground = () => {
         <motion.div
           className="absolute inset-0 -z-20"
           style={{
-            backgroundImage: "url(/assets/mountain-2.png)",
+            backgroundImage: "url(https://ik.imagekit.io/me99izv07/assets/mountain-2.png?updatedAt=1755343295608)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
             y: mountain2Y,
@@ -54,7 +54,7 @@ const ParallaxBackground = () => {
         <motion.div
           className="absolute inset-0 -z-10"
           style={{
-            backgroundImage: "url(/assets/mountain-1.png)",
+            backgroundImage: "url(https://ik.imagekit.io/me99izv07/assets/mountain-1.png?updatedAt=1755343295082)",
             backgroundPosition: "bottom",
             backgroundSize: "cover",
             y: mountain1Y,

@@ -12,27 +12,27 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "https://ik.imagekit.io/me99izv07/assets/projects/accessories.jpg?updatedAt=1755343307652",
     tags: [
       {
         id: 1,
         name: "React",
-        path: "/assets/logos/react.svg",
+        path: "https://ik.imagekit.io/me99izv07/assets/logos/react.svg?updatedAt=1755343323458",
       },
       {
         id: 2,
         name: "Node.js",
-        path: "/assets/logos/Node.js.svg",
+        path: "https://ik.imagekit.io/me99izv07/assets/logos/Node.js.svg?updatedAt=1755343321622",
       },
       {
         id: 3,
         name: "MongoDB",
-        path: "/assets/logos/MongoDB.svg",
+        path: "https://ik.imagekit.io/me99izv07/assets/logos/MongoDB.svg?updatedAt=1755343319390",
       },
       {
         id: 4,
         name: "Redux",
-        path: "/assets/logos/Redux.svg",
+        path: "https://ik.imagekit.io/me99izv07/assets/Redux.svg?updatedAt=1755343298448",
       },
     ],
   },
@@ -49,23 +49,23 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "https://ik.imagekit.io/me99izv07/assets/projects/auth-system.jpg?updatedAt=1755343307928",
     tags: [
       {
         id: 1,
         name: "Auth0",
-        path: "/assets/logos/auth0.svg",
+        path: "https://ik.imagekit.io/me99izv07/assets/logos/auth0.svg?updatedAt=1755343312459",
       },
       
       {
         id: 3,
         name: "MongoDB",
-        path: "/assets/logos/MongoDB.svg",
+        path: "https://ik.imagekit.io/me99izv07/assets/logos/MongoDB.svg?updatedAt=1755343319390",
       },
       {
         id: 4,
         name: "Redis",
-        path: "/assets/logos/Redis.svg",
+        path: "https://ik.imagekit.io/me99izv07/assets/logos/Redis.svg?updatedAt=1755343323535",
       },
       
     ],
@@ -82,27 +82,27 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/INTT.jpeg",
+    image: "https://ik.imagekit.io/me99izv07/assets/projects/INTT.jpeg?updatedAt=1755343314194",
     tags: [
       {
         id: 1,
         name: "React",
-        path: "/assets/logos/react.svg",
+        path: "https://ik.imagekit.io/me99izv07/assets/logos/react.svg?updatedAt=1755343323458",
       },
       {
         id: 2,
         name: "NodeJS",
-        path: "/assets/logos/Node.js.svg",
+        path: "https://ik.imagekit.io/me99izv07/assets/logos/Node.js.svg?updatedAt=1755343321622",
       },
       {
         id: 4,
         name: "Firebase",
-        path: "/assets/logos/FB.png",
+        path: "https://ik.imagekit.io/me99izv07/assets/logos/FB.png?updatedAt=1755343316962",
       },
     {
         id: 6,
         name: "Gemini API",
-        path: "/assets/logos/tailwindcss.svg",
+        path: "https://ik.imagekit.io/me99izv07/assets/logos/tailwindcss.svg?updatedAt=1755343325869",
       },
     ],
   },
@@ -119,23 +119,23 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/chat.jpg",
+    image: "https://ik.imagekit.io/me99izv07/assets/projects/chat.jpg?updatedAt=1755343308367",
     tags: [
       {
         id: 1,
         name: "React",
-        path: "/assets/logos/react.svg",
+        path: "https://ik.imagekit.io/me99izv07/assets/logos/react.svg?updatedAt=1755343323458",
       },
       
       {
         id: 3,
         name: "Socket.io",
-        path: "/assets/logos/socket.png",
+        path: "https://ik.imagekit.io/me99izv07/assets/logos/socket.png?updatedAt=1755343324298",
       },
       {
         id: 4,
         name: "Material UI",
-        path: "/assets/logos/mui.svg",
+        path: "https://ik.imagekit.io/me99izv07/assets/logos/mui.svg?updatedAt=1755343320053",
       },
      
     ],
@@ -153,23 +153,23 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/subs.png",
+    image: "https://ik.imagekit.io/me99izv07/assets/projects/subs.png?updatedAt=1755343313087",
     tags: [
       {
         id: 1,
         name: "React",
-        path: "/assets/logos/react.svg",
+        path: "https://ik.imagekit.io/me99izv07/assets/logos/react.svg?updatedAt=1755343323458",
       },
       {
         id: 2,
         name: "NodeJS",
-        path: "/assets/logos/Node.js.svg",
+        path: "https://ik.imagekit.io/me99izv07/assets/logos/Node.js.svg?updatedAt=1755343321622",
       },
       
       {
         id: 4,
         name: "PostgreSQL",
-        path: "/assets/logos/pSQL.svg",
+        path: "https://ik.imagekit.io/me99izv07/assets/logos/pSQL.svg?updatedAt=1755343323492",
       },
       
     ],
@@ -187,29 +187,29 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/elearning.jpg",
+    image: "https://ik.imagekit.io/me99izv07/assets/projects/elearning.jpg?updatedAt=1755343308846",
     tags: [
      
       {
         id: 2,
         name: "Redux",
-        path: "/assets/logos/Redux.svg",
+        path: "https://ik.imagekit.io/me99izv07/assets/logos/Redux.svg?updatedAt=1755343324814",
       },
       {
         id: 3,
         name: "Stripe",
-        path: "/assets/logos/stripe.svg",
+        path: "https://ik.imagekit.io/me99izv07/assets/logos/stripe.svg?updatedAt=1755343324814",
       },
       {
         id: 4,
         name: "NodeJS",
-        path: "/assets/logos/Node.js.svg",
+        path: "https://ik.imagekit.io/me99izv07/assets/logos/Node.js.svg?updatedAt=1755343321622",
       },
       
        {
         id: 6,
         name: "Redis",
-        path: "/assets/logos/Redis.svg",
+        path: "https://ik.imagekit.io/me99izv07/assets/logos/Redis.svg?updatedAt=1755343323535",
       },
       
     ],
@@ -220,24 +220,24 @@ export const mySocials = [
   {
     name: "Github",
     href: "https://github.com/sofiyan01",
-    icon: "/assets/socials/ghubb.svg",
+    icon: "https://ik.imagekit.io/me99izv07/assets/socials/ghubb.svg?updatedAt=1755343302762",
   },
   {
     name: "Linkedin",
     href: "https://www.linkedin.com/in/sayed-sofiyan",
-    icon: "/assets/socials/linkD.svg",
+    icon: "https://ik.imagekit.io/me99izv07/assets/socials/linkD.svg?updatedAt=1755343303959",
   },
   {
     name: "Instagram",
     href: "https://www.instagram.com/sufiyan_sd_01",
-    icon: "/assets/socials/IG.svg",
+    icon: "https://ik.imagekit.io/me99izv07/assets/socials/IG.svg?updatedAt=1755343302983",
   },
 ];
 
 export const experiences = [
   {
     title: "BCA",
-    job: "Swami Ramanand Teerth M University",
+    job: "S.S.B.E.S Institute Of Technology And Management",
     date: "2019-2022",
     contents: [
   "Learned essential concepts of application security and implemented them in academic projects, guided by principles from Cyber Security and Information Assurance subjects.",
@@ -250,7 +250,7 @@ export const experiences = [
   },
   {
     title: "Full-Stack Developer",
-    job: "########",
+    job: "",
     date: "2022-present",
     contents: [
   "Developed and optimized full-stack systems for large-scale data ingestion and analysis using the MERN stack, ensuring efficient storage and real-time processing.",
@@ -273,14 +273,14 @@ export const experiences = [
 ];
 export const reviews = [
   {
-    name: "Jack",
-    username: "@jack",
+    name: "Ashish",
+    username: "@ashish_p",
     body: "I've never seen anything like this before. It's amazing. I love it.",
     img: "https://robohash.org/jack",
   },
   {
-    name: "Jill",
-    username: "@jill",
+    name: "Ubaid",
+    username: "@ubbu1",
     body: "I don't know what to say. I'm speechless. This is amazing.",
     img: "https://robohash.org/jill",
   },
@@ -291,8 +291,8 @@ export const reviews = [
     img: "https://robohash.org/john",
   },
   {
-    name: "Alice",
-    username: "@alice",
+    name: "Mayra",
+    username: "@mariyam_q",
     body: "This is hands down the best thing I've experienced. Highly recommend!",
     img: "https://robohash.org/alice",
   },
@@ -303,20 +303,20 @@ export const reviews = [
     img: "https://robohash.org/bob",
   },
   {
-    name: "Charlie",
-    username: "@charlie",
+    name: "Anam Khan",
+    username: "@anamk_5",
     body: "This exceeded all my expectations. Absolutely stunning!",
     img: "https://robohash.org/charlie",
   },
   {
-    name: "Dave",
-    username: "@dave",
+    name: "Ralph",
+    username: "@ralph",
     body: "Simply breathtaking. The best decision I've made in a while.",
     img: "https://robohash.org/dave",
   },
   {
-    name: "Eve",
-    username: "@eve",
+    name: "Saim",
+    username: "@saimm",
     body: "So glad I found this. It has changed the game for me.",
     img: "https://robohash.org/eve",
   },

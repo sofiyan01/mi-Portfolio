@@ -1,36 +1,69 @@
 import { useState } from "react";
 import { motion } from "motion/react";
+import { Link } from "react-scroll";
+
 function Navigation() {
   return (
     <ul className="nav-ul">
       <li className="nav-li">
-        <a className="nav-link" href="#home">
+        <Link
+          className="nav-link cursor-pointer"
+          to="home"
+          smooth={true}
+          duration={600}
+          offset={-80}
+        >
           Home
-        </a>
+        </Link>
       </li>
       <li className="nav-li">
-        <a className="nav-link" href="#about">
+        <Link
+          className="nav-link cursor-pointer"
+          to="about"
+          smooth={true}
+          duration={600}
+          offset={-80}
+        >
           About
-        </a>
+        </Link>
       </li>
       <li className="nav-li">
-        <a className="nav-link" href="#project">
+        <Link
+          className="nav-link cursor-pointer"
+          to="project"
+          smooth={true}
+          duration={600}
+          offset={-80}
+        >
           Projects
-        </a>
+        </Link>
       </li>
       <li className="nav-li">
-        <a className="nav-link" href="#work">
+        <Link
+          className="nav-link cursor-pointer"
+          to="work"
+          smooth={true}
+          duration={600}
+          offset={-80}
+        >
           Experience
-        </a>
+        </Link>
       </li>
       <li className="nav-li">
-        <a className="nav-link" href="#contact">
+        <Link
+          className="nav-link cursor-pointer"
+          to="contact"
+          smooth={true}
+          duration={600}
+          offset={-80}
+        >
           Contact
-        </a>
+        </Link>
       </li>
     </ul>
   );
 }
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
@@ -48,7 +81,11 @@ const Navbar = () => {
             className="flex cursor-pointer text-neutral-400 hover:text-white focus:outline-none sm:hidden"
           >
             <img
-              src={isOpen ? "assets/close.svg" : "assets/menu.svg"}
+              src={
+                isOpen
+                  ? "https://ik.imagekit.io/me99izv07/assets/close.svg?updatedAt=1755343284106"
+                  : "https://ik.imagekit.io/me99izv07/assets/menu.svg?updatedAt=1755343293136"
+              }
               className="w-6 h-6"
               alt="toggle"
             />

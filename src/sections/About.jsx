@@ -14,14 +14,15 @@ const About = () => {
         {/* Grid 1 */}
         <div className="flex items-end grid-default-color grid-1">
           <img
-            src="assets/coding-pov.png"
+            src="https://ik.imagekit.io/me99izv07/assets/coding-pov.png?updatedAt=1755343285503"
             className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"
           />
           <div className="z-10">
             <p className="headtext">Hi, I'm Sayed Sofiyan</p>
             <p className="subtext">
-              Over the last 3+ years, I developed my frontend and backend dev
-              skills to deliver dynamic and software and web applications.
+              With 3+ years of experience, I’ve refined my frontend and backend
+              expertise to craft dynamic, high-performing web and software
+              applications.
             </p>
           </div>
           <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
@@ -62,17 +63,17 @@ const About = () => {
             />
             <Card
               style={{ rotate: "30deg", top: "70%", left: "70%" }}
-              image="assets/logos/NodeJS.png"
+              image="https://ik.imagekit.io/me99izv07/assets/logos/NodeJS.png?updatedAt=1755343328198"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "-45deg", top: "70%", left: "25%" }}
-              image="assets/logos/V8.png"
+              image="https://ik.imagekit.io/me99izv07/assets/logos/V8.png?updatedAt=1755343328198"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "-45deg", top: "5%", left: "10%" }}
-              image="assets/logos/github.png"
+              image="https://ik.imagekit.io/me99izv07/assets/logos/github.png?updatedAt=1755343318148"
               containerRef={grid2Container}
             />
           </div>
