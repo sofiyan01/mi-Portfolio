@@ -249,8 +249,8 @@ export const experiences = [
 ,
   },
   {
-    title: "Full-Stack Developer",
-    job: "",
+    title: "Software Engineer",
+    job: "Full-Stack Developer",
     date: "2022-present",
     contents: [
   "Developed and optimized full-stack systems for large-scale data ingestion and analysis using the MERN stack, ensuring efficient storage and real-time processing.",
