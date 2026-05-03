@@ -22,4 +22,4 @@ It showcases my projects, skills, and contact information.
 
 ---
 
-© 2025 Sofiyan Sayyad
+© 2026 Sofiyan Sayed
