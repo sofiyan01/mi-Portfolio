@@ -2,7 +2,7 @@ import { OrbitingCircles } from "./OrbitingCircles";
 
 export function Frameworks() {
   const skills = [
-    "fbase",
+    "auth0",
     "Node.js",
     "Postman",
     "pSQL",
@@ -18,7 +18,6 @@ export function Frameworks() {
     "tailwindcss",
     "vitejs",
     "Redis",
-    
   ];
   return (
     <div className="relative flex h-[15rem] w-full flex-col items-center justify-center">

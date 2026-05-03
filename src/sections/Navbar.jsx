@@ -1,69 +1,31 @@
 import { useState } from "react";
 import { motion } from "motion/react";
-import { Link } from "react-scroll";
-
 function Navigation() {
   return (
     <ul className="nav-ul">
       <li className="nav-li">
-        <Link
-          className="nav-link cursor-pointer"
-          to="home"
-          smooth={true}
-          duration={600}
-          offset={-80}
-        >
+        <a className="nav-link" href="#home">
           Home
-        </Link>
+        </a>
       </li>
       <li className="nav-li">
-        <Link
-          className="nav-link cursor-pointer"
-          to="about"
-          smooth={true}
-          duration={600}
-          offset={-80}
-        >
+        <a className="nav-link" href="#about">
           About
-        </Link>
+        </a>
       </li>
       <li className="nav-li">
-        <Link
-          className="nav-link cursor-pointer"
-          to="project"
-          smooth={true}
-          duration={600}
-          offset={-80}
-        >
-          Projects
-        </Link>
+        <a className="nav-link" href="#work">
+          Work
+        </a>
       </li>
       <li className="nav-li">
-        <Link
-          className="nav-link cursor-pointer"
-          to="work"
-          smooth={true}
-          duration={600}
-          offset={-80}
-        >
-          Experience
-        </Link>
-      </li>
-      <li className="nav-li">
-        <Link
-          className="nav-link cursor-pointer"
-          to="contact"
-          smooth={true}
-          duration={600}
-          offset={-80}
-        >
+        <a className="nav-link" href="#contact">
           Contact
-        </Link>
+        </a>
       </li>
     </ul>
   );
 }
-
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
@@ -74,18 +36,14 @@ const Navbar = () => {
             href="/"
             className="text-xl font-bold transition-colors text-neutral-400 hover:text-white"
           >
-            Sofiyan
+            iSUFIYAN
           </a>
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="flex cursor-pointer text-neutral-400 hover:text-white focus:outline-none sm:hidden"
           >
             <img
-              src={
-                isOpen
-                  ? "https://ik.imagekit.io/me99izv07/assets/close.svg?updatedAt=1755343284106"
-                  : "https://ik.imagekit.io/me99izv07/assets/menu.svg?updatedAt=1755343293136"
-              }
+              src={isOpen ? "assets/close.svg" : "assets/menu.svg"}
               className="w-6 h-6"
               alt="toggle"
             />

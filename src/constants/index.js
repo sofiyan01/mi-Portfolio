@@ -5,34 +5,34 @@ export const myProjects = [
     description:
       "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
     subDescription: [
-
-"Implemented JWT-based authentication and database operations using Node.js, Express, and MongoDB.",
-"Designed a responsive frontend using React.js and Tailwind CSS to enhance shopping experience.",
-"Added payment systems (Stripe/COD), localization, and product filtering for usability improvements.",
+      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
+      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
+      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
+      "Added payment systems, localization, and product filtering for functionality improvements.",
     ],
     href: "",
     logo: "",
-    image: "https://ik.imagekit.io/me99izv07/assets/projects/accessories.jpg?updatedAt=1755343307652",
+    image: "/assets/projects/foreve.jpg",
     tags: [
       {
         id: 1,
         name: "React",
-        path: "https://ik.imagekit.io/me99izv07/assets/logos/react.svg?updatedAt=1755343323458",
+        path: "/assets/logos/csharp.svg",
       },
       {
         id: 2,
         name: "Node.js",
-        path: "https://ik.imagekit.io/me99izv07/assets/logos/Node.js.svg?updatedAt=1755343321622",
+        path: "/assets/logos/dotnet.svg",
       },
       {
         id: 3,
         name: "MongoDB",
-        path: "https://ik.imagekit.io/me99izv07/assets/logos/MongoDB.svg?updatedAt=1755343319390",
+        path: "/assets/logos/efcore.png",
       },
       {
         id: 4,
-        name: "Redux",
-        path: "https://ik.imagekit.io/me99izv07/assets/Redux.svg?updatedAt=1755343298448",
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
       },
     ],
   },
@@ -40,69 +40,73 @@ export const myProjects = [
     id: 2,
     title: "Authentication & Authorization System",
     description:
-      "A secure authentication and authorization system using JWT and Auth0 for seamless user management.",
+      "A secure authentication and authorization system using Auth0 for seamless user management.",
     subDescription: [
       "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
       "Implemented role-based access control (RBAC) for fine-grained user permissions.",
       "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure Redis database for fast session and user data storage.",
+      "Connected to a secure SQLite database for user data storage.",
     ],
     href: "",
     logo: "",
-    image: "https://ik.imagekit.io/me99izv07/assets/projects/auth-system.jpg?updatedAt=1755343307928",
+    image: "/assets/projects/auth-system.jpg",
     tags: [
       {
         id: 1,
         name: "Auth0",
-        path: "https://ik.imagekit.io/me99izv07/assets/logos/auth0.svg?updatedAt=1755343312459",
+        path: "/assets/logos/auth0.svg",
       },
-      
+      {
+        id: 2,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
       {
         id: 3,
         name: "MongoDB",
-        path: "https://ik.imagekit.io/me99izv07/assets/logos/MongoDB.svg?updatedAt=1755343319390",
+        path: "/assets/logos/sqlite.svg",
       },
       {
         id: 4,
-        name: "Redis",
-        path: "https://ik.imagekit.io/me99izv07/assets/logos/Redis.svg?updatedAt=1755343323535",
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
       },
-      
     ],
   },
   {
     id: 3,
     title: "AI-Driven Interview Platform",
     description:
-      "AI-Powered Interview Platform with Real-Time Q&A Using Gemini API",
+      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
     subDescription: [
-      "Built with React.js and Node.js to manage question-answer flow dynamically.",
-      "Integrated Gemini AI API to generate intelligent, contextual interview answers.",
-      "Implemented JWT auth and session tracking for personalized interviews.",
+      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
+      "Implemented API interactions using .NET Core for a robust backend.",
+      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
+      "Integrated SQLite for efficient client-side database storage.",
     ],
     href: "",
     logo: "",
-    image: "https://ik.imagekit.io/me99izv07/assets/projects/INTT.jpeg?updatedAt=1755343314194",
+    image: "/assets/projects/blazor-app.jpg",
     tags: [
       {
         id: 1,
-        name: "React",
-        path: "https://ik.imagekit.io/me99izv07/assets/logos/react.svg?updatedAt=1755343323458",
+        name: "Blazor",
+        path: "/assets/logos/blazor.svg",
       },
       {
         id: 2,
-        name: "NodeJS",
-        path: "https://ik.imagekit.io/me99izv07/assets/logos/Node.js.svg?updatedAt=1755343321622",
+        name: ".NET Core",
+        path: "/assets/logos/dotnetcore.svg",
+      },
+      {
+        id: 3,
+        name: "SQLite",
+        path: "/assets/logos/sqlite.svg",
       },
       {
         id: 4,
-        name: "Firebase",
-        path: "https://ik.imagekit.io/me99izv07/assets/logos/FB.png?updatedAt=1755343316962",
-      },
-    {
-        id: 6,
-        name: "Gemini API",
-        path: "https://ik.imagekit.io/me99izv07/assets/logos/tailwindcss.svg?updatedAt=1755343325869",
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
       },
     ],
   },
@@ -110,68 +114,74 @@ export const myProjects = [
     id: 4,
     title: "Chatty WebApp",
     description:
-      "A real-time chat application built with the MERN stack and Socket.io.",
+      "A lightweight C++ game engine designed for 2D and 3D game development.",
     subDescription: [
-      "Built a scalable backend using Node.js, Express, and MongoDB for chat data.",
-      "Integrated Socket.io for real-time bi-directional messaging support.",
-      "Implemented JWT auth, user presence, and private/public chat rooms.",
-      "Designed a responsive React UI with Tailwind CSS for smooth UX.",
+      "Built a powerful rendering engine using OpenGL and C++.",
+      "Developed a physics engine with collision detection and particle effects.",
+      "Implemented a scripting system for easy game customization.",
+      "Optimized performance with multi-threading and efficient memory management.",
     ],
     href: "",
     logo: "",
-    image: "https://ik.imagekit.io/me99izv07/assets/projects/chat.jpg?updatedAt=1755343308367",
+    image: "/assets/projects/chat.jpg",
     tags: [
       {
         id: 1,
         name: "React",
-        path: "https://ik.imagekit.io/me99izv07/assets/logos/react.svg?updatedAt=1755343323458",
+        path: "/assets/logos/cplusplus.svg",
       },
-      
+      {
+        id: 2,
+        name: "Socket.io",
+        path: "/assets/logos/csharp.svg",
+      },
       {
         id: 3,
-        name: "Socket.io",
-        path: "https://ik.imagekit.io/me99izv07/assets/logos/socket.png?updatedAt=1755343324298",
+        name: "Zustand",
+        path: "/assets/logos/git.svg",
       },
       {
         id: 4,
-        name: "Material UI",
-        path: "https://ik.imagekit.io/me99izv07/assets/logos/mui.svg?updatedAt=1755343320053",
+        name: "Node.js",
+        path: "/assets/logos/microsoft.svg",
       },
-     
     ],
   },
   {
     id: 5,
-    title: "Subscription Tracker",
+    title: "WordPress Custom Theme",
     description:
-      "A web app to manage and track recurring subscriptions and expenses.",
+      "A fully customizable WordPress theme optimized for performance and SEO.",
     subDescription: [
-      "Developed a responsive interface using React.js and Tailwind CSS.",
-      "Integrated Node.js and MongoDB for backend and data storage.",
-      "Optimized performance and load time using Vite.js bundler.",
-      "Implemented alerts, filtering, and secure user authentication features.",
+      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
+      "Integrated Tailwind CSS for modern styling and UI enhancements.",
+      "Optimized SEO and page speed using Vite.js for fast builds.",
+      "Implemented custom widgets and plugin compatibility for extended functionality.",
     ],
     href: "",
     logo: "",
-    image: "https://ik.imagekit.io/me99izv07/assets/projects/subs.png?updatedAt=1755343313087",
+    image: "/assets/projects/wordpress-theme.jpg",
     tags: [
       {
         id: 1,
-        name: "React",
-        path: "https://ik.imagekit.io/me99izv07/assets/logos/react.svg?updatedAt=1755343323458",
+        name: "WordPress",
+        path: "/assets/logos/wordpress.svg",
       },
       {
         id: 2,
-        name: "NodeJS",
-        path: "https://ik.imagekit.io/me99izv07/assets/logos/Node.js.svg?updatedAt=1755343321622",
+        name: "HTML5",
+        path: "/assets/logos/html5.svg",
       },
-      
+      {
+        id: 3,
+        name: "CSS3",
+        path: "/assets/logos/css3.svg",
+      },
       {
         id: 4,
-        name: "PostgreSQL",
-        path: "https://ik.imagekit.io/me99izv07/assets/logos/pSQL.svg?updatedAt=1755343323492",
+        name: "Vite.js",
+        path: "/assets/logos/vitejs.svg",
       },
-      
     ],
   },
   {
@@ -180,64 +190,61 @@ export const myProjects = [
     description:
       "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
     subDescription: [
-      "Built with the MERN stack to deliver a seamless single-page experience.",
-      "Implemented video streaming using cloud storage and media players.",
-      "Added a quiz module with dynamic questions and real-time grading.",
-      "Integrated Stripe API for secure and reliable payment processing.",
+      "Built using Blazor WebAssembly for a seamless SPA experience.",
+      "Implemented video streaming with Azure Media Services.",
+      "Added a quiz system with dynamic question generation and real-time grading.",
+      "Integrated Stripe API for secure payment processing.",
     ],
     href: "",
     logo: "",
-    image: "https://ik.imagekit.io/me99izv07/assets/projects/elearning.jpg?updatedAt=1755343308846",
+    image: "/assets/projects/elearning.jpg",
     tags: [
-     
+      {
+        id: 1,
+        name: "Blazor",
+        path: "/assets/logos/blazor.svg",
+      },
       {
         id: 2,
-        name: "Redux",
-        path: "https://ik.imagekit.io/me99izv07/assets/logos/Redux.svg?updatedAt=1755343324814",
+        name: "Azure",
+        path: "/assets/logos/azure.svg",
       },
       {
         id: 3,
         name: "Stripe",
-        path: "https://ik.imagekit.io/me99izv07/assets/logos/stripe.svg?updatedAt=1755343324814",
+        path: "/assets/logos/stripe.svg",
       },
       {
         id: 4,
-        name: "NodeJS",
-        path: "https://ik.imagekit.io/me99izv07/assets/logos/Node.js.svg?updatedAt=1755343321622",
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
       },
-      
-       {
-        id: 6,
-        name: "Redis",
-        path: "https://ik.imagekit.io/me99izv07/assets/logos/Redis.svg?updatedAt=1755343323535",
-      },
-      
     ],
   },
 ];
 
 export const mySocials = [
   {
-    name: "Github",
-    href: "https://github.com/sofiyan01",
-    icon: "https://ik.imagekit.io/me99izv07/assets/socials/ghubb.svg?updatedAt=1755343302762",
+    name: "WhatsApp",
+    href: "",
+    icon: "/assets/socials/whatsApp.svg",
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/sayed-sofiyan",
-    icon: "https://ik.imagekit.io/me99izv07/assets/socials/linkD.svg?updatedAt=1755343303959",
+    href: "https://www.linkedin.com/in/ali-sanati/",
+    icon: "/assets/socials/linkedIn.svg",
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/sufiyan_sd_01",
-    icon: "https://ik.imagekit.io/me99izv07/assets/socials/IG.svg?updatedAt=1755343302983",
+    href: "https://www.instagram.com/ali.sanatidev/reels/",
+    icon: "/assets/socials/instagram.svg",
   },
 ];
 
 export const experiences = [
   {
     title: "BCA",
-    job: "S.S.B.E.S Institute Of Technology And Management",
+    job: "Swami Ramanand Teerth M University",
     date: "2019-2022",
     contents: [
   "Learned essential concepts of application security and implemented them in academic projects, guided by principles from Cyber Security and Information Assurance subjects.",
@@ -249,8 +256,8 @@ export const experiences = [
 ,
   },
   {
-    title: "Software Engineer",
-    job: "Full-Stack Developer",
+    title: "Full-Stack Developer",
+    job: "########",
     date: "2022-present",
     contents: [
   "Developed and optimized full-stack systems for large-scale data ingestion and analysis using the MERN stack, ensuring efficient storage and real-time processing.",
@@ -273,14 +280,14 @@ export const experiences = [
 ];
 export const reviews = [
   {
-    name: "Ashish",
-    username: "@ashish_p",
+    name: "Jack",
+    username: "@jack",
     body: "I've never seen anything like this before. It's amazing. I love it.",
     img: "https://robohash.org/jack",
   },
   {
-    name: "Ubaid",
-    username: "@ubbu1",
+    name: "Jill",
+    username: "@jill",
     body: "I don't know what to say. I'm speechless. This is amazing.",
     img: "https://robohash.org/jill",
   },
@@ -291,8 +298,8 @@ export const reviews = [
     img: "https://robohash.org/john",
   },
   {
-    name: "Mayra",
-    username: "@mariyam_q",
+    name: "Alice",
+    username: "@alice",
     body: "This is hands down the best thing I've experienced. Highly recommend!",
     img: "https://robohash.org/alice",
   },
@@ -303,20 +310,20 @@ export const reviews = [
     img: "https://robohash.org/bob",
   },
   {
-    name: "Anam Khan",
-    username: "@anamk_5",
+    name: "Charlie",
+    username: "@charlie",
     body: "This exceeded all my expectations. Absolutely stunning!",
     img: "https://robohash.org/charlie",
   },
   {
-    name: "Ralph",
-    username: "@ralph",
+    name: "Dave",
+    username: "@dave",
     body: "Simply breathtaking. The best decision I've made in a while.",
     img: "https://robohash.org/dave",
   },
   {
-    name: "Saim",
-    username: "@saimm",
+    name: "Eve",
+    username: "@eve",
     body: "So glad I found this. It has changed the game for me.",
     img: "https://robohash.org/eve",
   },
